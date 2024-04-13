@@ -1,0 +1,22 @@
+var searchData=
+[
+  ['gaiaallocategpumemory_0',['gaiaAllocateGpuMemory',['../sidera_8h.html#a65d4b4e37567bf6b0deb7a27392a2fbd',1,'sidera.h']]],
+  ['gaiabuildcomputepipeline_1',['gaiaBuildComputePipeline',['../sidera_8h.html#a7dd94255714240d46a7e7a2099f67234',1,'sidera.h']]],
+  ['gaiabuildgraphicspipeline_2',['gaiaBuildGraphicsPipeline',['../sidera_8h.html#a6d8e0e6604f77d0ecdf3bf468e995eb8',1,'sidera.h']]],
+  ['gaiadestroybuffers_3',['gaiaDestroyBuffers',['../sidera_8h.html#ab0e200c08e4633fa1f6999efca34e993',1,'sidera.h']]],
+  ['gaiadestroycomputepipeline_4',['gaiaDestroyComputePipeline',['../sidera_8h.html#a9b4ddb1b8c806423c4159e83515163b2',1,'sidera.h']]],
+  ['gaiadestroygraphicspipeline_5',['gaiaDestroyGraphicsPipeline',['../sidera_8h.html#aad114fa6950c6f0006aaf415c90bcc83',1,'sidera.h']]],
+  ['gaiadestroypipelinepool_6',['gaiaDestroyPipelinePool',['../sidera_8h.html#a1a7aa2afea41b579b49dd281c8236b57',1,'sidera.h']]],
+  ['gaiagetavailableheap_7',['gaiaGetAvailableHeap',['../sidera_8h.html#a4f2cca40a6e133a46248820c6f31d0ef',1,'sidera.h']]],
+  ['gaiagetuniformbufferoffset_8',['gaiaGetUniformBufferOffset',['../sidera_8h.html#a47aeb47044a38c0b6c21a3fa9137c0ba',1,'sidera.h']]],
+  ['gaialoadinterface_9',['gaiaLoadInterface',['../sidera_8h.html#a286f93c87a1fb12d3dfda5cee8384955',1,'sidera.h']]],
+  ['gaiareadgraphicssettings_10',['gaiaReadGraphicsSettings',['../sidera_8h.html#a8d16b0d10a94de27806726cda96f685a',1,'sidera.h']]],
+  ['gaiareadsources_11',['gaiaReadSources',['../sidera_8h.html#acde3d8fcd740bf78b4969672002d06fb',1,'sidera.h']]],
+  ['gaiareadsourcesettings_12',['gaiaReadSourceSettings',['../sidera_8h.html#ace99c94cb4f052f9a4c9fc99037c45b6',1,'sidera.h']]],
+  ['gaiasetuppipelinepool_13',['gaiaSetupPipelinePool',['../sidera_8h.html#a5ff1ce8b8e9ae7ab0ca592de25093136',1,'sidera.h']]],
+  ['gaiasortcelestialbodies_14',['gaiaSortCelestialBodies',['../sidera_8h.html#a7d53fd3ad848652c3e2439657108b206',1,'sidera.h']]],
+  ['gaiaupdateui_15',['gaiaUpdateUI',['../sidera_8h.html#a6684734a9fece21f8bde35719f65ad15',1,'sidera.h']]],
+  ['gaiawriteandcopymemory_16',['gaiaWriteAndCopyMemory',['../sidera_8h.html#a94df73722adc473f8cfaed902643bca6',1,'sidera.h']]],
+  ['gaiawriteinterface_17',['gaiaWriteInterface',['../sidera_8h.html#a22dce8fa48cfe0f89c69f159d2c71b1d',1,'sidera.h']]],
+  ['gaiawriteviewmode_18',['gaiaWriteViewMode',['../sidera_8h.html#a982521a8edbd76a7e02b6b06d3f16642',1,'sidera.h']]]
+];
