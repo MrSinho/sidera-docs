@@ -1,7 +1,8 @@
 var searchData=
 [
-  ['max_5fbuffer_5fmemory_0',['max_buffer_memory',['../struct_gaia_universe_model.html#a959d8e059009a8db948db30bacf054de',1,'GaiaUniverseModel']]],
-  ['mode_1',['mode',['../md__d_1_2home_2desktop_2github_2gaia-universe-model_2docs_2src_2application-tutorial.html#autotoc_md16',1,'Change shading mode'],['../md__d_1_2home_2desktop_2github_2gaia-universe-model_2docs_2src_2application-tutorial.html#autotoc_md15',1,'Set view mode']]],
-  ['model_20application_2',['How to use gaia-universe-model application',['../md__d_1_2home_2desktop_2github_2gaia-universe-model_2docs_2src_2quick-install.html#autotoc_md21',1,'']]],
-  ['move_20ini_20file_3',['Move ini file',['../md__d_1_2home_2desktop_2github_2gaia-universe-model_2docs_2src_2terminal-install.html#autotoc_md24',1,'']]]
+  ['last_5fresource_5fcount_0',['last_resource_count',['../struct_gaia_universe_model.html#ad10fe9f9e7611f45b5224142122a0436',1,'GaiaUniverseModel']]],
+  ['license_1',['license',['../index.html#autotoc_md3',1,'Gaia Data License'],['../index.html#autotoc_md5',1,'Sidera License']]],
+  ['linux_20build_20logs_2',['Linux build logs',['../md__d_1_2home_2desktop_2github_2gaia-universe-model_2_8shci_2linux_2log.html',1,'']]],
+  ['log_2emd_3',['log.md',['../linux_2log_8md.html',1,'(Global Namespace)'],['../windows_2log_8md.html',1,'(Global Namespace)']]],
+  ['logs_4',['logs',['../md__d_1_2home_2desktop_2github_2gaia-universe-model_2_8shci_2linux_2log.html',1,'Linux build logs'],['../md__d_1_2home_2desktop_2github_2gaia-universe-model_2_8shci_2windows_2log.html',1,'Windows build logs']]]
 ];

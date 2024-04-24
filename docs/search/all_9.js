@@ -1,7 +1,8 @@
 var searchData=
 [
-  ['last_5fresource_5fcount_0',['last_resource_count',['../struct_gaia_universe_model.html#ad10fe9f9e7611f45b5224142122a0436',1,'GaiaUniverseModel']]],
-  ['linux_20build_20logs_1',['Linux build logs',['../md__d_1_2home_2desktop_2github_2gaia-universe-model_2_8shci_2linux_2log.html',1,'']]],
-  ['log_2emd_2',['log.md',['../linux_2log_8md.html',1,'(Global Namespace)'],['../windows_2log_8md.html',1,'(Global Namespace)']]],
-  ['logs_3',['logs',['../md__d_1_2home_2desktop_2github_2gaia-universe-model_2_8shci_2linux_2log.html',1,'Linux build logs'],['../md__d_1_2home_2desktop_2github_2gaia-universe-model_2_8shci_2windows_2log.html',1,'Windows build logs']]]
+  ['ini_20file_0',['Move ini file',['../md__d_1_2home_2desktop_2github_2gaia-universe-model_2docs_2src_2terminal-install.html#autotoc_md31',1,'']]],
+  ['install_1',['Terminal install',['../md__d_1_2home_2desktop_2github_2gaia-universe-model_2docs_2src_2terminal-install.html',1,'']]],
+  ['interface_2',['interface',['../md__d_1_2home_2desktop_2github_2gaia-universe-model_2docs_2src_2application-tutorial.html#autotoc_md20',1,'Camera properties and text-based interface'],['../index.html#autotoc_md9',1,'User interface']]],
+  ['interface_5fsaved_5fsmd_3',['interface_saved_smd',['../struct_gaia_universe_model.html#a7e91d17b55b8b3b844dfedb00ba53b5c',1,'GaiaUniverseModel']]],
+  ['interface_5fsmd_4',['interface_smd',['../struct_gaia_universe_model.html#a8dddf53bd81d77bed51184324f5210d0',1,'GaiaUniverseModel']]]
 ];

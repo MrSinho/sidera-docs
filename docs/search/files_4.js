@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['sidera_2eh_0',['sidera.h',['../sidera_8h.html',1,'']]]
+  ['terminal_2dinstall_2emd_0',['terminal-install.md',['../terminal-install_8md.html',1,'']]]
 ];

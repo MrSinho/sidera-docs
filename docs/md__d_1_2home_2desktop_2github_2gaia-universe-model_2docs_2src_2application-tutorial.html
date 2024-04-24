@@ -125,21 +125,21 @@ $(document).ready(function(){initNavTree('md__d_1_2home_2desktop_2github_2gaia-u
 </div><!--header-->
 <div class="contents">
 <div class="toc"><h3>Table of Contents</h3>
-<ul><li class="level1"><a href="#autotoc_md8">Run executable</a></li>
-<li class="level1"><a href="#autotoc_md9">Camera properties and text-based interface</a></li>
-<li class="level1"><a href="#autotoc_md10">Edit source settings</a><ul><li class="level2"><a href="#autotoc_md11">Change number of celestial bodies</a></li>
-<li class="level2"><a href="#autotoc_md12">Customize xyz parameters</a></li>
-<li class="level2"><a href="#autotoc_md13">Customize color filter</a></li>
+<ul><li class="level1"><a href="#autotoc_md19">Run executable</a></li>
+<li class="level1"><a href="#autotoc_md20">Camera properties and text-based interface</a></li>
+<li class="level1"><a href="#autotoc_md21">Edit source settings</a><ul><li class="level2"><a href="#autotoc_md22">Change number of celestial bodies</a></li>
+<li class="level2"><a href="#autotoc_md23">Customize xyz parameters</a></li>
+<li class="level2"><a href="#autotoc_md24">Customize color filter</a></li>
 </ul>
 </li>
-<li class="level1"><a href="#autotoc_md14">Edit graphics settings</a><ul><li class="level2"><a href="#autotoc_md15">Set view mode</a></li>
-<li class="level2"><a href="#autotoc_md16">Change shading mode</a></li>
+<li class="level1"><a href="#autotoc_md25">Edit graphics settings</a><ul><li class="level2"><a href="#autotoc_md26">Set view mode</a></li>
+<li class="level2"><a href="#autotoc_md27">Change shading mode</a></li>
 </ul>
 </li>
 </ul>
 </div>
-<div class="textblock"><p><a class="anchor" id="autotoc_md7"></a> <img src="https://img.shields.io/badge/SIDERA%20|%20SINHO%20SOFTWORKS-3CFADC?style=for-the-badge&amp;logo=&amp;logoColor=white&amp;labelColor=990042" alt="" class="inline"/> <a href="https://github.com/mrsinho/sidera"><img src="https://img.shields.io/badge/GitHub_repository-3CFADC?style=for-the-badge&amp;logo=github&amp;logoColor=black" alt="" class="inline"/></a></p>
-<h1><a class="anchor" id="autotoc_md8"></a>
+<div class="textblock"><p><a class="anchor" id="autotoc_md18"></a> <img src="https://img.shields.io/badge/SIDERA%20|%20SINHO%20SOFTWORKS-3CFADC?style=for-the-badge&amp;logo=&amp;logoColor=white&amp;labelColor=990042" alt="" class="inline"/> <a href="https://github.com/mrsinho/sidera"><img src="https://img.shields.io/badge/GitHub_repository-3CFADC?style=for-the-badge&amp;logo=github&amp;logoColor=black" alt="" class="inline"/></a></p>
+<h1><a class="anchor" id="autotoc_md19"></a>
 Run executable</h1>
 <p>Starting from the root directory of the program, go to <code>sidera/os/bin</code> and run the <code>sidera</code> executable file.</p>
 <div class="tabbed"></div><div class="tabbed"><ul>
@@ -153,7 +153,7 @@ Run executable</h1>
 </div><!-- fragment --></li>
 </ul>
 </div><div class="tabbed"></div><p><img src="./media/sidera-startup.png" alt="" class="inline"/></p>
-<h1><a class="anchor" id="autotoc_md9"></a>
+<h1><a class="anchor" id="autotoc_md20"></a>
 Camera properties and text-based interface</h1>
 <p>You can move around the 3d universe using the <code>WASD</code> keys. To set the camera speed, press the keys from <code>1</code> to <code>5</code>. To change the fov angle (in radians), use the <code>Z</code> (increse) and <code>X</code> keys. To save current the camera properties (position, rotation, fov, etc.) press <code>LEFT_CTRL + F</code>. To load the last saved camera interface, press <code>LEFT_CTRL + L</code>.</p>
 <p>You can read the camera properties in real time by opening the <code>sidera/interface.smd</code> file with your favourite text editor:</p>
@@ -168,10 +168,10 @@ Camera properties and text-based interface</h1>
 <div class="line">FLOAT32    ^^ 3    !! camera_position___________pc    --&gt; 0.0 0.0 0.0   ***</div>
 <div class="line">FLOAT32    ^^ 1    !! camera_fov_______________rad    --&gt; 45.000000     ***</div>
 </div><!-- fragment --><p>The camera position is in parsecs (<code>pc</code>).</p>
-<h1><a class="anchor" id="autotoc_md10"></a>
+<h1><a class="anchor" id="autotoc_md21"></a>
 Edit source settings</h1>
 <p>Editing the gaia universe model source settings means reading new data and different celestial body properties. Open the settings file located at <code>sidera/smd/settings.smd</code> file (for more information about the smd file format, visit the <a href="https://github.com/mrsinho/smd"><code>smd repository</code></a>).</p>
-<h2><a class="anchor" id="autotoc_md11"></a>
+<h2><a class="anchor" id="autotoc_md22"></a>
 Change number of celestial bodies</h2>
 <p>You can increase or decrease the number of celestial bodies to read, and the amount of data to render on the screen. You can achieve this by changing one variable in the <code>settings.smd</code> file:</p>
 <div class="fragment"><div class="line">    SOURCE SETTINGS</div>
@@ -186,7 +186,7 @@ Change number of celestial bodies</h2>
 <p><em>x: right ascension; y: declination; z: barycentric distance; view mode: polar; color filter: teff; shade type: animated; 30 million celestial bodies</em></p>
 <p><img src="1million.png" alt="" class="inline"/>    </p>
 <p><em>x: right ascension; y: declination; z: barycentric distance; view mode: polar; color filter: teff; shade type: animated; 1 million celestial bodies</em></p>
-<h2><a class="anchor" id="autotoc_md12"></a>
+<h2><a class="anchor" id="autotoc_md23"></a>
 Customize xyz parameters</h2>
 <p>You can submit to the GPU at maximum three default celestial body parameters, which will be then plotted in the 3d environment. By default, the celestial body right ascension, declination and barycentric distance will be respectively set at x, y, and z parameters.</p>
 <p>You can setup the celestial body xyz parameters through the <code>settings.smd</code> file.</p>
@@ -234,7 +234,7 @@ Customize xyz parameters</h2>
 <div class="line">                                            (change here)</div>
 </div><!-- fragment --><p>To change the mode data is projected in the 3d world, see the `set-view-mode` chapter.</p>
 <p>Save the file and refresh the application source settings with <code>LEFT_CTRL + R</code>.</p>
-<h2><a class="anchor" id="autotoc_md13"></a>
+<h2><a class="anchor" id="autotoc_md24"></a>
 Customize color filter</h2>
 <p>The color filter of a celestial body is an extra parameter submitted to the GPU, which affects the color of each celestial body depending on its value. Higher values will increase the green and blue channels of the celestial body color. Here you can find the supported color filter parameters:</p>
 <div class="fragment"><div class="line">set color filter, choose between </div>
@@ -260,10 +260,10 @@ Customize color filter</h2>
 <p><em>x: right ascension; y: declination; z: barycentric distance; view mode: polar; color filter: radius; shade type: pixel</em></p>
 <p><img src="random_color_seedcf.png" alt="" class="inline"/>    </p>
 <p><em>x: right ascension; y: declination; z: barycentric distance; view mode: polar; color filter: random color; shade type: pixel</em></p>
-<h1><a class="anchor" id="autotoc_md14"></a>
+<h1><a class="anchor" id="autotoc_md25"></a>
 Edit graphics settings</h1>
 <p>When you change the gaia universe model graphics settings you are not reading new celestial bodies parameters, but you're only changing the way the same data appears on the screen. Open the settings file located at <code>sidera/smd/settings.smd</code> file (for more information about the smd file format, visit the <a href="https://github.com/mrsinho/smd"><code>smd repository</code></a>).</p>
-<h2><a class="anchor" id="autotoc_md15"></a>
+<h2><a class="anchor" id="autotoc_md26"></a>
 Set view mode</h2>
 <p>A polar projection mode is optimal when reading right ascension, declination and barycentric distance as xyz parameters. This way what you see on the screen is actually the true representation of the night sky. Plotting data on a cartesian diagram allows finding out some correlation between the xyz celestial body parameters:</p>
 <div class="fragment"><div class="line">view mode, choose between:</div>
@@ -277,7 +277,7 @@ Set view mode</h2>
 </div><!-- fragment --><p>Save the file and refresh the application graphics settings with <code>LEFT_CTRL + G</code> (<code>G</code> stands for graphics).</p>
 <p><img src="age_mass_feh__fehcf_cartesian.png" alt="" class="inline"/>    </p>
 <p><em>x: age; y: mass; z: feh; view mode: cartesian; color filter: feh; shade type: pixel. As you can see, there is a correlation between a star's mass, age, and abundance of Fe particles, and only some combinations of parameters are possible (there are colorful and dark regions)</em></p>
-<h2><a class="anchor" id="autotoc_md16"></a>
+<h2><a class="anchor" id="autotoc_md27"></a>
 Change shading mode</h2>
 <p>This is pure aestetics. Stars can be represented as dots (pixels), circles, clouds, or animated clouds:</p>
 <div class="fragment"><div class="line">choose between (to compare each pipeline&#39;s speed, see the profiling.smd file)</div>
@@ -295,7 +295,10 @@ Change shading mode</h2>
 <p><em>x: right ascension; y: declination; z: barycentric distance; view mode: polar; color filter: logg; shade type: animated</em></p>
 <p><img src="age_cf.png" alt="" class="inline"/>    </p>
 <p><em>x: right ascension; y: declination; z: barycentric distance; view mode: polar; color filter: age; shade type: animated</em></p>
-<p><img src="https://img.shields.io/badge/SIDERA%20|%20SINHO%20SOFTWORKS-3CFADC?style=for-the-badge&amp;logo=&amp;logoColor=white&amp;labelColor=990042" alt="" class="inline"/> <a href="https://github.com/mrsinho/sidera"><img src="https://img.shields.io/badge/GitHub_repository-3CFADC?style=for-the-badge&amp;logo=github&amp;logoColor=black" alt="" class="inline"/></a> </p>
+<p><img src="https://img.shields.io/badge/SIDERA%20|%20SINHO%20SOFTWORKS-3CFADC?style=for-the-badge&amp;logo=&amp;logoColor=white&amp;labelColor=990042" alt="" class="inline"/> <a href="https://github.com/mrsinho/sidera"><img src="https://img.shields.io/badge/GitHub_repository-3CFADC?style=for-the-badge&amp;logo=github&amp;logoColor=black" alt="" class="inline"/></a></p>
+<hr  />
+<p>© 2024 Anas Boustani. All rights reserved.</p>
+<p>The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. All trademarks and registered trademarks appearing on this website are the property of their respective owners. </p>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->
